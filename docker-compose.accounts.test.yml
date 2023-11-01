@@ -44,7 +44,7 @@ services:
       - mynetwork
 
 
-  nginx:
+  nginx-acc:
     image: minibank_nginx_accounts
     build:
       context: .
